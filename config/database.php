@@ -1,18 +1,18 @@
 <?php
 // config connection
-$host    ="localhost";
-$port    ="5432";
-$dbname   ="schoolar";
-$user      ="postgres";
-$password   ="unicesmag";
+$host    = "localhost";
+$port    = "5432";
+$dbname   = "schoolar";
+$user      = "postgres";
+$password   = "unicesmag";
 
 // Create connetion
 $conn = pg_connect("
-host=$host
-port=$port  
-dbname=$dbname
-user=$user 
-password=$password 
+ host=$host
+ port=$port  
+  dbname=$dbname
+ user=$user 
+ password=$password 
 
 ");
 if(!$conn){
@@ -22,5 +22,6 @@ if(!$conn){
     }else{ 
         echo "success onnection";
 }
+  pg_close();
 
 ?>
