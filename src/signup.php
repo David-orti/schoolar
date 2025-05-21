@@ -1,6 +1,7 @@
 
 <?php
 
+
     include('../config/database.php');
 
     $fname  = $_POST['f_name'];
@@ -13,7 +14,7 @@
     
     $sql_email_exist = "
     
-    
+
         SELECT 
             COUNT(email) as total 
         FROM 
