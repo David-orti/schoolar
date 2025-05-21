@@ -41,6 +41,7 @@ include('../config/database.php');
             echo "<a href=''><img src='icons/search.png' width='15'></a>";
             echo "</td>";
             echo "</tr>";
+            
         }
         ?>
             

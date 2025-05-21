@@ -12,6 +12,7 @@
     $enc_pass = sha1($passwd);
     
     $sql_email_exist = "
+    
         SELECT 
             COUNT(email) as total 
         FROM 

@@ -12,6 +12,7 @@
     $enc_pass = sha1($passw);
 
     $sql = "
+    
         SELECT 
             id,
             COUNT(id) as total
