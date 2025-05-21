@@ -13,6 +13,7 @@
     
     $sql_email_exist = "
     
+    
         SELECT 
             COUNT(email) as total 
         FROM 

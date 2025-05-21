@@ -13,6 +13,7 @@
 
     $sql = "
     
+    
         SELECT 
             id,
             COUNT(id) as total
